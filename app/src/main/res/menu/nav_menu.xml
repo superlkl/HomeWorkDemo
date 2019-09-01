@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_people"
+        android:icon="@drawable/nav_ticket"
+        android:title="演出">
+    </item>
+    <item android:id="@+id/nav_email"
+        android:icon="@drawable/nav_shopping"
+        android:title="商场">
+    </item>
+    <item android:id="@+id/nav_money"
+        android:icon="@drawable/nav_location"
+        android:title="附近的人">
+    </item>
+
+    <item android:id="@+id/nav_location"
+        android:icon="@drawable/nav_music"
+        android:title="口袋铃声">
+    </item>
+    <item android:id="@+id/nav_5"
+        android:icon="@drawable/nav19"
+        android:title="音乐闹钟">
+    </item>
+    <item android:id="@+id/nav_8"
+        android:icon="@drawable/nav20"
+        android:title="创作者中心">
+    </item>
+    <item android:id="@+id/nav_6"
+        android:icon="@drawable/nav18"
+        android:title="定时播放">
+    </item>
+    <item android:id="@+id/nav_7"
+        android:icon="@drawable/nav17"
+        android:title="扫一扫">
+    </item>
+
+
+
+</menu>

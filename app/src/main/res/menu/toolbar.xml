@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="我的"
+        android:id="@+id/id1"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/id2"
+        android:title="发现"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:title="云村"
+        app:showAsAction="always"
+        android:id="@+id/id3"/>
+
+    <item
+        android:title="视频"
+        app:showAsAction="always"
+        android:id="@+id/id4"/>
+    <item
+        android:title=""
+        android:id="@+id/id8"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/menu_find"
+        android:icon="@drawable/ic_find"
+        android:title="Find"
+        app:showAsAction="always">
+    </item>
+
+</menu>

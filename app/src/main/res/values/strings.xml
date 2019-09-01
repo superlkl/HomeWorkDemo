@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">盗版网易</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contentDescriptionAction">能够响应一个点击事件的图片或者按钮</string>
+</resources>

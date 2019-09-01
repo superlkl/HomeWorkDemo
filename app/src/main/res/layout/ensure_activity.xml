@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="	#00BFFF">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#8000"
+        android:src="@drawable/ic_background2" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_back"
+                android:id="@+id/ensure_back"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="手机号验证"
+                android:textColor="#ffffff"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="50sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="验证码已发送至"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#ffffff"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="+86  "
+                    android:textColor="#ffffff"
+                    android:textSize="20sp" />
+
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:id="@+id/show_cellNumber"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="32dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+
+                    android:id="@+id/show_second"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:text="s"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <EditText
+                android:layout_width="80dp"
+                android:layout_marginStart="21dp"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:maxLength="1"
+                android:id="@+id/editText1"/>
+            <EditText
+                android:layout_width="80dp"
+                android:layout_marginStart="10dp"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:maxLength="1"
+                android:id="@+id/editText2"/>
+            <EditText
+                android:layout_width="80dp"
+                android:layout_marginStart="10dp"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:maxLength="1"
+                android:id="@+id/editText3"/>
+            <EditText
+                android:layout_width="80dp"
+                android:layout_marginStart="10dp"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:maxLength="1"
+                android:id="@+id/editText4"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_margin="10dp"
+    android:background="#FF8888"
+android:layout_height="100dp">
+
+    <ImageView
+        android:layout_margin="12dp"
+        android:id="@+id/recommend_item_img"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+    <LinearLayout
+        android:background="#FF8888"
+        android:layout_width="0dp"
+        android:layout_weight="2.5"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:id="@+id/recommend_item_singName"
+            android:textSize="18sp"
+            android:text="我是歌单"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFDDDD">
+        </View>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:id="@+id/recommend_item_singerName"
+            android:textSize="14sp"
+            android:text="我是歌单"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#FF8888">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_bofang"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/recommend_item_start"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_caidan"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/recommend_item_start2"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

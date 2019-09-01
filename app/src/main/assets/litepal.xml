@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <!--数据库名-->
+    <dbname value="user_msg"/>
+
+    <!--版本-->
+    <version value="3"/>
+
+    <list>
+        <!--路径要全，映射到类-->
+        <mapping class = "com.example.mythirddemo.db.User"/>
+
+    </list>
+
+</litepal>
